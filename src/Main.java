@@ -13,6 +13,6 @@ public class Main {
         System.out.println("Значение переменной seeds с типом long равно " + seeds);
         System.out.println("Значение переменной bread с типом float равно " + bread);
         System.out.println("Значение переменной cake с типом double равно " + cake);
-
+        System.out.println("Exercise 2");
     }
 }
