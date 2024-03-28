@@ -4,7 +4,7 @@ public class Main {
         byte boys=2;
         short toys=213;
         int littelBirds=431;
-        long seeds=75624l;
+        long seeds= 75624L;
         float bread=2.5f;
         double cake=23.25;
         System.out.println("Значение переменной boys с типом byte равно " + boys);
@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Значение переменной cake с типом double равно " + cake);
         System.out.println("Exercise 2");
         float sugar=27.12f;
-        long people=987678965549l;
+        long people=987678965549L;
         double salt= 2.786;
         char car=569;
         short money=-159;
