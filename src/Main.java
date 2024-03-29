@@ -45,6 +45,21 @@ public class Main {
         System.out.println("За сутки машина произвела "+bottle2+" штук бутылок");
         System.out.println("За 3 дня машина произвела "+bottle3+" штук бутылок");
         System.out.println("За 1 месяц машина произвела "+bottle4+" штук бутылок");
+        System.out.println("Exercise 5");
+        int all=120;
+        int wight=all/3;
+        int brown=all*2/3;
+        int room=120/6;
+        System.out.println("В школе, где "+room+" классов, нужно "+wight+" банок белой краски и "+brown+" банок коричневой краски.");
+        System.out.println("Exercise 6");
+        int bananas=5*80;
+        int milk=2*105;
+        int iceCream=2*100;
+        int eggs=4*70;
+        int allG=bananas+milk+iceCream+eggs;
+        float allKg=allG/1000f;
+        System.out.println("Масса завтрака "+allG+" грамм или "+allKg+" килограмм.");
+
 
     }
 }
