@@ -59,7 +59,16 @@ public class Main {
         int allG=bananas+milk+iceCream+eggs;
         float allKg=allG/1000f;
         System.out.println("Масса завтрака "+allG+" грамм или "+allKg+" килограмм.");
-
-
+        System.out.println("Exercise 7");
+        int weight=7000;
+        int weightMin=250;
+        int weightMax=500;
+        int days1=weight/weightMin;
+        int days2=weight/weightMax;
+        float days=(days1+days2)/2f;
+        System.out.println("Чтобы сбросить 7 кг. понадобиться:");
+        System.out.println("минимум "+days2+" дней");
+        System.out.println("максимум "+days1+" дней");
+        System.out.println("в среднем "+days+" дней");
     }
 }
