@@ -30,7 +30,21 @@ public class Main {
         int paper1=paper/allPupils;
         System.out.println("На каждого ученика рассчитано "+paper1+" листов бумаги");
         System.out.println("Exercise 4");
-
+        byte bottle=16;
+        byte time=2;
+        int bottleMinute=bottle/time;
+        int time1=20;
+        int time2=24*60;
+        int time3=3*time2;
+        int time4=30*time2;
+        int bottle1=bottleMinute*time1;
+        int bottle2=bottleMinute*time2;
+        int bottle3=bottleMinute*time3;
+        int bottle4=bottleMinute*time4;
+        System.out.println("За 20 минут машина произвела "+bottle1+" штук бутылок");
+        System.out.println("За сутки машина произвела "+bottle2+" штук бутылок");
+        System.out.println("За 3 дня машина произвела "+bottle3+" штук бутылок");
+        System.out.println("За 1 месяц машина произвела "+bottle4+" штук бутылок");
 
     }
 }
