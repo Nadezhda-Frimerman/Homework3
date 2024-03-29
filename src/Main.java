@@ -21,5 +21,15 @@ public class Main {
         short money=-159;
         int butterfly=27897;
         byte cat=67;
+        System.out.println("Exercise 3");
+        byte pupilsLuPa=23;
+        byte pupilsAnSe=27;
+        byte pupilsEkAn=30;
+        int allPupils=pupilsLuPa+pupilsAnSe+pupilsEkAn;
+        int paper=480;
+        int paper1=paper/allPupils;
+        System.out.println("На каждого ученика рассчитано "+paper1+" листов бумаги");
+        System.out.println("Exercise 4");
+
     }
 }
