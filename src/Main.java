@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Homework 3");
         System.out.println("Exercise 1");
         byte boys=2;
         short toys=213;
@@ -70,5 +71,18 @@ public class Main {
         System.out.println("минимум "+days2+" дней");
         System.out.println("максимум "+days1+" дней");
         System.out.println("в среднем "+days+" дней");
+        System.out.println("Exercise 7");
+        int masha=67760;
+        int den=83690;
+        int kris=76230;
+        float masha1=masha*1.1f;
+        float den1=den*1.1f;
+        float kris1=kris*1.1f;
+        float incomeGrowthMasha=12*masha1-12*masha;
+        float incomeGrowthDen=12*den1-12*den;
+        float incomeGrowthKris=12*kris1-12*kris;
+        System.out.println("Маша теперь получает "+masha1+" рублей в месяц. Годовой доход вырос на "+incomeGrowthMasha+" рублей.");
+        System.out.println("Денис теперь получает "+den1+" рублей в месяц. Годовой доход вырос на "+incomeGrowthDen+" рублей.");
+        System.out.println("Кристина теперь получает "+kris1+" рублей в месяц. Годовой доход вырос на "+incomeGrowthKris+" рублей.");
     }
 }
