@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Homework 3");
         System.out.println("Exercise 1");
         byte boys=2;
         short toys=213;
